@@ -64,10 +64,6 @@ The t-SNE plot (with perplexity=30) successfully revealed distinct clusters and 
 -   **Outliers:** Several isolated points were identified, hypothesized to be experimental artifacts or genes with rare, highly specialized functions.
 -   **Hard-to-Learn Samples:** A large, dense central region showed a thorough mixing of different categories, illustrating why a simple linear classifier would fail and confirming the need for a non-linear model.
 
-<p align="center">
-  <img src="path/to/your/tsne_plot.png" width="700" alt="t-SNE Visualization">
-  <br><em>Figure 1: Final t-SNE plot with perplexity=30.</em>
-</p>
 
 ### Isomap and the Data Manifold
 
@@ -75,10 +71,7 @@ The Isomap plot revealed a single, continuous, and curved structure, in contrast
 -   **Global vs. Local Structure:** Isomap proved superior at revealing the global structure, showing that all gene categories belong to a single continuum. t-SNE was better for isolating local clusters.
 -   **Complex Manifold:** The plot strongly suggests the data lies on a highly complex and curved manifold. The intermingling of classes along this manifold visually confirms that the classification task is inherently difficult and requires a model capable of learning non-linear decision boundaries.
 
-<p align="center">
-  <img src="path/to/your/isomap_plot.png" width="700" alt="Isomap Visualization">
-  <br><em>Figure 2: Isomap plot revealing the global data manifold.</em>
-</p>
+
 
 ## Setup and Usage
 
