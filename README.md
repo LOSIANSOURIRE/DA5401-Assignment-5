@@ -31,7 +31,7 @@ By reducing the 103-dimensional feature space to 2 dimensions using t-SNE and Is
 
 ## Dataset
 
--   **Source:** [MULAN Repository - Yeast Data]([http://datamining.org/datasets/mulan/yeast](https://mulan.sourceforge.net/datasets-mlc.html))
+-   **Source:** [MULAN Repository - Yeast Data](http://datamining.org/datasets/mulan/yeast](https://mulan.sourceforge.net/datasets-mlc.html)
 -   **Instances:** 2,417 (each representing a gene)
 -   **Features:** 103 (real-valued gene expression levels)
 -   **Labels:** 14 (binary indicators for functional categories, allowing for multi-label assignment)
